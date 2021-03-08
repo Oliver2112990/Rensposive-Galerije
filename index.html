@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+<style>
+ 
+
+#row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-auto-rows: minmax(160px, auto);
+    column-gap: 32px;
+    row-gap: 60px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.columns {
+    border-radius: 6px;
+    background-color: rgba(35, 35, 190, 0.5);;
+    border: 1px solid blue;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+    
+    .box-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('placeholder-image.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    .title {
+    text-align: center;
+    background-color: rgba(0, 0, 100, 0.11);
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 5px 0px;
+}
+
+p {
+    padding-top: 30px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+.columns {
+grid-template-columns: repeat(3, 1fr);
+}
+}
+ 
+@media screen and (max-width: 768px) {
+.columns {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+ 
+@media screen and (max-width: 414px) {
+.columns{
+grid-template-columns: repeat(1, 1fr);
+}
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+
+<h1>Gallery Heading</h1>
+
+ <div id="row">   
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+<div class="columns">
+    <div class="box-1"></div>
+    <div class="title">Images titles</div>
+</div>
+ </div>
+
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis, augue non blandit hendrerit, justo tortor iaculis tortor, in consequat libero ex et nibh. Ut non risus a turpis malesuada dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eu finibus erat, eu pulvinar dui. Fusce fringilla cursus elit, sit amet gravida nisi tincidunt non. In iaculis porta orci, ut mattis nibh sodales ut. Sed eget ornare augue. Nunc luctus rhoncus est sit amet vulputate. Morbi rhoncus dignissim feugiat. Suspendisse scelerisque dolor vel tincidunt suscipit. Etiam dui lectus, elementum sit amet odio eget, blandit semper libero. Vestibulum nec sem sagittis, tincidunt enim quis, semper nisl. Fusce eu risus posuere, dapibus nibh ac, pharetra enim.</p>
+
+</body>
+</html>
